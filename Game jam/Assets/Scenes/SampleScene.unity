@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 269302615}
   - component: {fileID: 269302616}
+  - component: {fileID: 269302617}
   m_Layer: 0
   m_Name: "k\xFCp engel"
   m_TagString: Untagged
@@ -145,8 +146,8 @@ Transform:
   m_GameObject: {fileID: 269302614}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.76, y: -3.9588, z: 0}
-  m_LocalScale: {x: 2.4207978, y: 2.5053613, z: 1}
+  m_LocalPosition: {x: -1.5212, y: -3.6722, z: 0}
+  m_LocalScale: {x: 4.4461694, y: 3.8874485, z: 0.9091}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1234970194}
@@ -209,6 +210,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &269302617
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269302614}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.32, y: 0.32}
+  m_EdgeRadius: 0
 --- !u!1 &334856674
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,8 +340,8 @@ Transform:
   m_GameObject: {fileID: 334856674}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.77, y: -3.07, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 5.6751, y: -3.1524, z: 0}
+  m_LocalScale: {x: 0.9091, y: 0.9091, z: 0.9091}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1203,7 +1250,7 @@ Transform:
   m_GameObject: {fileID: 1751888898}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.4994, y: 0.0006, z: 0}
+  m_LocalPosition: {x: 11.4994, y: -0.02, z: 0}
   m_LocalScale: {x: 8.456175, y: 3.1166613, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1411,7 +1458,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: -2007140392777217803, guid: 33458b3e0284d0a4ab45b44c440f1135, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1430,8 +1477,8 @@ Transform:
   m_GameObject: {fileID: 2069109526}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.01, y: -3.31, z: 0}
-  m_LocalScale: {x: 11.376485, y: 0.6874, z: 1}
+  m_LocalPosition: {x: 15.9477, y: -2.74, z: 0}
+  m_LocalScale: {x: 15.561062, y: 1.8290242, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
