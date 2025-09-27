@@ -16,7 +16,11 @@ public class PlayerControl : MonoBehaviour
         horizontal = Input.GetAxis("Horizontal");
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
+=======
+        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+>>>>>>> Stashed changes
 =======
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
 >>>>>>> Stashed changes
