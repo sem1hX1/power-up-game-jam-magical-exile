@@ -15,6 +15,7 @@ public class PlayerControl : MonoBehaviour
     {
         horizontal = Input.GetAxis("Horizontal");
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
+
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
