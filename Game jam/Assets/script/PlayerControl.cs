@@ -14,19 +14,11 @@ public class PlayerControl : MonoBehaviour
     void FixedUpdate()
     {
         horizontal = Input.GetAxis("Horizontal");
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
-=======
-        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
->>>>>>> Stashed changes
-=======
-        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
->>>>>>> Stashed changes
-=======
-        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
->>>>>>> Stashed changes
+
+        rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
+        rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
+        rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
 
         if (horizontal > 0)
             transform.localScale = new Vector3(1, 1, 1);
