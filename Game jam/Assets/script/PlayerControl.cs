@@ -14,7 +14,7 @@ public class PlayerControl : MonoBehaviour
     void FixedUpdate()
     {
         horizontal = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
 
         if (horizontal > 0)
             transform.localScale = new Vector3(1, 1, 1);
