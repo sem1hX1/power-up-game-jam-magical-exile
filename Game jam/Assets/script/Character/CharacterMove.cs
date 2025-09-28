@@ -15,6 +15,13 @@ public class CharacterMove : MonoBehaviour
 
     [SerializeField]
     float groundCheckRadius = 0.4f;
+    Vector2 forward;
+    [SerializeField]
+    float speed = 1.0f;
+    [SerializeField]
+    //float isJumging = 5f;
+
+    playerCombar playerCombar;
 
     float speedAmount = 5f;
     float jumpAmount = 5f;
@@ -22,20 +29,27 @@ public class CharacterMove : MonoBehaviour
     void Start()
     {
         rgb = GetComponent<Rigidbody2D>();
+        playerCombar = GetComponent<playerCombar>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        HandleJump();
+        attack();
+        HandleJump();
+        GroundCheck();
+        runattack();
+
         float inputX = Input.GetAxis("Horizontal");
 
         velocity = new Vector3(inputX, 0f);
         transform.position += velocity * speedAmount * Time.deltaTime;
 
-        float speed = Mathf.Abs(inputX);
+         speed = Mathf.Abs(inputX);
         animator.SetFloat("Speed", speed);
 
-        HandleJump();
+        
 
         if (Input.GetAxis("Horizontal") < 0)
         {
@@ -68,6 +82,27 @@ public class CharacterMove : MonoBehaviour
     private bool GroundCheck()
     {
         return Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+    }
+
+
+
+    private void attack()
+    {
+       
+
+        if(Input.GetKeyDown(KeyCode.E)&&speed==0f)
+        {
+            animator.SetTrigger("attack");
+            playerCombar.DamageEnemy();
+        }
+    }
+    void runattack()
+    {
+        if(Input.GetKeyDown(KeyCode.E)&&speed>1f||Input.GetKeyDown(KeyCode.E)&&speed<1f)
+       {
+            animator.SetTrigger("runattack");
+            playerCombar.DamageEnemy();
+        }
     }
 
 }
