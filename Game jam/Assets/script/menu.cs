@@ -8,11 +8,10 @@ public class StartMenu : MonoBehaviour
 
     void Start()
     {
-        // Buton tıklanınca Intro sahnesine geç
-        startButton.onClick.AddListener(GoToIntro);
+        
     }
 
-    void GoToIntro()
+    public void GoToIntro()
     {
         // Build Settings'teki 2. sahneye geç (Intro)
         SceneManager.LoadScene(2);

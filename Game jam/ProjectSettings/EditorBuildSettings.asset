@@ -14,9 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/intro.unity
     guid: 33a690b8d02deb247afb8d20af5322a0
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
     path: Assets/Scenes/sahne.unity
     guid: e1dc1563221613941aef7c011848aff9
