@@ -147,7 +147,7 @@ RectTransform:
   m_GameObject: {fileID: 109712465}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1983146318}
@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -908, y: 450}
+  m_AnchoredPosition: {x: -366, y: 173}
   m_SizeDelta: {x: 28.5485, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &109712467
@@ -1356,14 +1356,14 @@ RectTransform:
   m_GameObject: {fileID: 1338966316}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 567600157}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -73, y: -1048}
+  m_AnchoredPosition: {x: -14, y: -887}
   m_SizeDelta: {x: 706.86, y: 513.2301}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1338966318
@@ -1386,23 +1386,23 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Sakin bir k\xF6yde ya\u015Fayan gen\xE7 bir o\u011Flan, b\xFCy\xFCc\xFClerin
-    liderini \xF6ld\xFCrerek halk\u0131n\u0131 k\u0131sa s\xFCreli\u011Fine kurtard\u0131.
-    Ancak bu, korkun\xE7 bir intikam\u0131 tetikledi. \xD6ld\xFCr\xFClen liderin
-    k\u0131z\u0131 olan g\xFC\xE7l\xFC B\xFCy\xFCc\xFC Kad\u0131n, gencin \xF6n\xFCnde
-    t\xFCm k\xF6y halk\u0131n\u0131 vah\u015Fice katletti.\n\nGen\xE7, intikam ate\u015Fiyle
-    yanarken, B\xFCy\xFCc\xFC Kad\u0131n onu \xF6ld\xFCrmek yerine daha b\xFCy\xFCk
-    bir ac\u0131ya mahk\xFBm etti. Asas\u0131n\u0131 ona do\u011Frulttu ve kadim
-    bir lanetle, genci sevdiklerinin kayb\u0131 ve \xE7aresizli\u011Fiyle birlikte
-    binlerce y\u0131l sonraya f\u0131rlatt\u0131.\n\nKendine geldi\u011Finde, toprak
-    kokulu k\xF6y\xFCn\xFCn yerinde, cam ve \xE7elikten g\xF6kdelenlerin y\xFCkseldi\u011Fi,
-    u\xE7an ara\xE7lar\u0131n dola\u015Ft\u0131\u011F\u0131 so\u011Fuk, yapay bir
-    f\xFCt\xFCristik d\xFCnyada buldu kendini.\n\nS\xFCrg\xFCn ve \u0130ntikam: Ait
-    olmad\u0131\u011F\u0131 bu teknoloji hapishanesinde, gen\xE7 adam\u0131n tek
-    amac\u0131 var: Bu laneti tersine \xE7evirmek, kendi evrenine d\xF6nmek ve sevdiklerinin
-    intikam\u0131n\u0131 almak i\xE7in B\xFCy\xFCc\xFC Kad\u0131n\u0131 bulmak. Eve
-    d\xF6n\xFC\u015F m\xFCcadelesi, onu bu garip uygarl\u0131\u011F\u0131n en karanl\u0131k
-    s\u0131rlar\u0131na ve zaman\u0131n derinliklerine s\xFCr\xFCkleyecektir."
+  m_text: "624 y\u0131l\u0131, Eski \xC7a\u011F Takvimine g\xF6re 2. y\u0131l.\r\n\r\nSylvanda
+    Krall\u0131\u011F\u0131'n\u0131n, karanl\u0131k b\xFCy\xFCc\xFClerin olu\u015Fturdu\u011Fu
+    Luminark Tarikat\u0131na kar\u015F\u0131 verdi\u011Fi sava\u015Fta, Sylvanda'n\u0131n
+    en g\xFC\xE7l\xFC sava\u015F\xE7\u0131s\u0131 ve komutan\u0131 olan Alaric, Ebedi
+    K\u0131l\u0131\xE7 s\xFCvarilerine \xF6nderlik ediyordu.\r\n\r\nAlaric ve ordusu
+    sava\u015F\u0131 kazanmak \xFCzereydi; Luminark lideri k\xF6\u015Feye s\u0131k\u0131\u015Fm\u0131\u015Ft\u0131.\r\n\r\nAlaric,
+    sava\u015F\u0131 sonsuza kadar bitirmek \xFCzereyken, Luminark'\u0131n en g\xFC\xE7l\xFC
+    b\xFCy\xFCc\xFClerden olan Draegor ortaya \xE7\u0131kt\u0131.\r\n\r\nAd\u0131
+    yaln\u0131zca efsanelerde ge\xE7en Eryndral ad\u0131nda efsanevi bir b\xFCy\xFC
+    kullanmas\u0131yla, b\xFCy\xFCn\xFCn g\xFCc\xFC uzay-zaman bo\u015Flu\u011Funda
+    bir y\u0131rt\u0131k olu\u015Fturdu.\r\n\r\nKaradelik Alaric\u2019in t\xFCm ordusunu
+    harap etti; Alaric ve b\xFCy\xFCc\xFC Draegor\u2019u ise rastgele zamanlara savurdu.\r\n\r\nAlaric
+    mucizev\xEE bir \u015Fekilde hayatta kalm\u0131\u015Ft\u0131.\r\n\r\nBu s\u0131rada
+    L\xFCminark Ordusu, Sylvanda Krall\u0131\u011F\u0131'n\u0131n kutsal \u015Fehrini
+    ele ge\xE7irmi\u015Fti.\r\n\r\nK\u0131l\u0131c\u0131n\u0131 ku\u015Fanan Alaric,
+    s\u0131k\u0131\u015Ft\u0131\u011F\u0131 zaman bo\u015Flu\u011Fundan kurtulup
+    kutsal \u015Fehri karanl\u0131ktan kurtarmak i\xE7in yola koyuldu"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -1493,7 +1493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cde520dadea42d84880698714321dc17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScrollingText
-  speed: 30
+  speed: 40
 --- !u!1 &1651096530
 GameObject:
   m_ObjectHideFlags: 0
@@ -1632,15 +1632,15 @@ RectTransform:
   m_GameObject: {fileID: 1717940638}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 623688111}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6, y: 68}
-  m_SizeDelta: {x: 497.3144, y: 50}
+  m_AnchoredPosition: {x: 7, y: 58}
+  m_SizeDelta: {x: 476.3231, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1717940640
 MonoBehaviour:
@@ -1986,7 +1986,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 1.3999996}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1983146319
