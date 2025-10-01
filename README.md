@@ -7,7 +7,7 @@
 
 
 ## Magical-Exile
-Karabük Üniversitesi Yapay Zeka Klubü Tarafından Düzenlenen Power Up Game jam Yarışmasında 48 Saat İçinde yapılan Oyundur
+Karabük Üniversitesi Yapay Zeka Kulübü tarafından düzenlenen Power Up Game Jam yarışmasında, 48 saat içerisinde geliştirdiğimiz oyun ile hem zaman yönetimi hem de takım çalışması konusunda önemli tecrübeler edindim. Bu süreçte Unity kullanmayı, oyun mekaniği tasarlamayı ve oyun geliştirme sürecinde karşılaşılan sorunlara hızlı çözümler üretmeyi öğrendim. Ayrıca ekip arkadaşlarımla birlikte çalışarak iş bölümü, iletişim ve işbirliği konularında deneyim kazandım.
 
 ---
 
