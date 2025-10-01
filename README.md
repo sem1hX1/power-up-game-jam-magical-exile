@@ -16,10 +16,10 @@ Karabük Üniversitesi Yapay Zeka Klubü Tarafından Düzenlenen Power Up Game j
 ---
 <img src="galerii/intro.png">
 
-
-
-
-
-
 ---
+<h3>Game Play Video</h3>
+
+<a href="galerii/gameeeplay.mp4">
+  <img src="galerii/düşman.png" width="300">
+</a>
 
