@@ -19,7 +19,7 @@ Karabük Üniversitesi Yapay Zeka Kulübü tarafından düzenlenen Power Up Game
 ---
 <h3>Game Play Video</h3>
 
-<a href="https://youtu.be/EQ8PLUFd2eg" target="_blank">
+<a href="https://youtu.be/EQ8PLUFd2eg" target="blank">
   <img src="galerii/düşman.png" width="300">
 </a>
 
