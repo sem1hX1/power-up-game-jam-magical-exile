@@ -14,7 +14,7 @@ Karabük Üniversitesi Yapay Zeka Klubü Tarafından Düzenlenen Power Up Game j
 <img src="galerii/menu.png">
 
 ---
-
+<img src="galerii/intro.png">
 
 
 
