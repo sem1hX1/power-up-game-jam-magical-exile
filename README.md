@@ -19,7 +19,7 @@ Karabük Üniversitesi Yapay Zeka Klubü Tarafından Düzenlenen Power Up Game j
 ---
 <h3>Game Play Video</h3>
 
-<a href="galerii/gameeeplay.mp4">
+<a href="[galerii/gameeeplay.mp4](https://free-game-assets.itch.io/car-constructor-pixel-art)">
   <img src="galerii/düşman.png" width="300">
 </a>
 
